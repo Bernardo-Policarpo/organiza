@@ -37,7 +37,7 @@ Este projeto implementa uma **Arquitetura Modular Orientada a Domínio**. As dec
 
 ## Convenções
 - **Commits**: Segue o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/). Mais detalhes em [ADR-004 — Padronização de Commits](./docs/adr/ADR-004-commit-standard.md).
-- **Idioma**: Código, documentação e commits são realizados em **Português**.
+- **Idioma**: Código e documentação são realizados em **Português**, exceto os commits que são feitos em **Inglês**.
 - **Estilo de Código**: Princípios de Clean Code e padrões SOLID são aplicados.
 - **Padronização de READMEs**: Todos os READMEs seguem o padrão definido em [ADR-002 — Padronização de README](./docs/adr/ADR-002-readme-standard.md).
 - **Padronização de ADRs**: As decisões arquiteturais são documentadas conforme [ADR-003 — Padronização de ADRs](./docs/adr/ADR-003-adr-standard.md).
