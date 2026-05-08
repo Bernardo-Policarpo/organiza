@@ -1,0 +1,45 @@
+# ###########################################################
+# Organiza$ - Git Ignore Global
+# ###########################################################
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- BACKEND (Java/Maven) ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+*.gz
+/backend/target/
+/backend/.env
+/backend/*.log
+
+# --- FRONTEND (Node/React) ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# --- DATABASE ---
+/database/*.sql.gz
+/database/data/
+
+# --- GENERAL ---
+.env
+.env.local
+*.zip
+*.rar
+*.7z
+/upload/
+/temp/
